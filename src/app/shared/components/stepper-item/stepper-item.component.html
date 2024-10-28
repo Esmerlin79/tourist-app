@@ -1,0 +1,7 @@
+<div class="container">
+    <div [ngClass]="{'circle': true, 'circle-selected': data.current, 'circle-completed': data.completed}" >
+        <mat-icon *ngIf="data.completed">check</mat-icon>
+        <span *ngIf="!data.completed">{{data.index + 1}}</span>
+    </div>
+    <span>{{data.label}}</span>
+</div>

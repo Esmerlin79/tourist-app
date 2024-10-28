@@ -1,0 +1,44 @@
+<div class="table-container">
+    <app-modal [title]="'Add new owner'" [show]="isOpenModal">
+        <app-owner-form [data]="ownerToEdit" />
+    </app-modal>
+    <div class="table-top">
+        <p>In case this property has more than 1 owner, add here</p>
+        <app-custom-button 
+            (onClick)="handleOpenModal()" 
+            [color]="'info'" 
+            [label]="'additional owner'" 
+            [icon]="'add'"
+            [disabled]="false" 
+            [withStartIcon]="true" 
+            [withEndIcon]="false" 
+        />
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Email address</th>
+                <th>Phone number</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of owners; track $index) {
+            <tr>
+                <td>{{item.firstName}}</td>
+                <td>{{item.lastName}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.phone}}</td>
+                <td>
+                    <span><mat-icon (click)="handleOpenModalToEdit(item)" class="action-btn edit">edit</mat-icon></span>
+                    <span>
+                        <mat-icon (click)="handleDeleteOwner(item.id!)" class="action-btn delete">delete</mat-icon>
+                    </span>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

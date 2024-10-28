@@ -1,0 +1,43 @@
+<ng-container [ngSwitch]="type">
+    <button
+      *ngSwitchCase="'outline'"
+      mat-stroked-button
+      (click)="handleClick()"
+      [disabled]="disabled"
+      [ngClass]="{ 'danger': color === 'danger', 'info': color === 'info' }"
+    >
+      <div class="btn-content">
+        <mat-icon *ngIf="withStartIcon" class="icon">{{ icon }}</mat-icon>
+        {{ label }}
+        <mat-icon *ngIf="withEndIcon" class="icon">{{ icon }}</mat-icon>
+      </div>
+    </button>
+  
+    <button
+      *ngSwitchCase="'solid'"
+      mat-flat-button
+      (click)="handleClick()"
+      [disabled]="disabled"
+      [ngClass]="{ 'danger': color === 'danger', 'info': color === 'info' }"
+    >
+      <div class="btn-content">
+        <mat-icon *ngIf="withStartIcon" class="icon">{{ icon }}</mat-icon>
+        {{ label }}
+        <mat-icon *ngIf="withEndIcon" class="icon">{{ icon }}</mat-icon>
+      </div>
+    </button>
+  
+    <button
+      *ngSwitchDefault
+      mat-stroked-button
+      (click)="handleClick()"
+      [disabled]="disabled"
+      [ngClass]="{ 'danger': color === 'danger', 'info': color === 'info' }"
+    >
+      <div class="btn-content">
+        <mat-icon *ngIf="withStartIcon" class="icon">{{ icon }}</mat-icon>
+        {{ label }}
+        <mat-icon *ngIf="withEndIcon" class="icon">{{ icon }}</mat-icon>
+      </div>
+    </button>
+  </ng-container>

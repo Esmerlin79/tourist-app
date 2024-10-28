@@ -1,0 +1,49 @@
+button {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.46px;
+  font-weight: 500;
+  border-radius: 4px;
+  height: 30px;
+  display: flex;
+  gap: 2px;
+  transition: all 0.5s ease;
+  padding: 0px;
+}
+
+button:disabled {
+  background-color: #0000001f !important;
+  color: #00000061 !important;
+  border-color: #00000061 !important;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  max-height: 30px;
+  width: 100%;
+  padding: 0px 5px;
+}
+mat-icon {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.danger {
+  color: #ef6c0080 !important;
+  border-color: #ef6c0080 !important;
+}
+.danger:hover {
+  background-color: #ef6c0080;
+  color: white !important;
+}
+.info {
+  color: #2196f380 !important;
+  border-color: #2196f380 !important;
+}
+.info:hover {
+  background-color: #2196f380;
+  color: white !important;
+}

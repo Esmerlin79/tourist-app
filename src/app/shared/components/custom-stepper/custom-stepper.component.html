@@ -1,0 +1,9 @@
+<div class="container">
+    @for (item of stepperItems; track $index) {
+     <div class="item-container">
+         <app-stepper-item [data]="item" />
+         <div *ngIf="$index < stepperItems.length - 1" [ngClass]="{'vertical-line': true, 'vertical-line-completed': item.completed}" ></div>
+     </div>
+    }
+ </div>
+ 

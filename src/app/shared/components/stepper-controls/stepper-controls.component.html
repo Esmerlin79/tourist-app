@@ -1,0 +1,30 @@
+<div>
+    <app-custom-button 
+        [label]="'Cancel'" 
+        [icon]="'close'" 
+        [withEndIcon]="false" 
+        [withStartIcon]="true"
+        [color]="'danger'" 
+        [disabled]="false" 
+        (onClick)="resetStep()" 
+    />
+    <app-custom-button 
+        [label]="'Back'" 
+        [icon]="'keyboard_backspace'" 
+        [withEndIcon]="false" 
+        [withStartIcon]="true"    
+        [color]="'info'" 
+        [disabled]="currentStep < 1" 
+        (onClick)="backStep()" 
+    />
+    
+    <app-custom-button 
+        [label]="'Next'" 
+        [icon]="'arrow_right_alt'" 
+        [withEndIcon]="false" 
+        [withStartIcon]="true"
+        [color]="'info'" 
+        [disabled]="!isCompleteStep" 
+        (onClick)="nextStep()" 
+    />
+</div>

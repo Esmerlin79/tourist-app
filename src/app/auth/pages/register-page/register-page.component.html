@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="stepper-container">
+        <div class="stepper">
+            <app-custom-stepper [stepperItems]="stepperItems" />
+        </div>
+    
+        <div class="form-container">
+            @switch (currentStep) {
+            @case (0) {
+            <span>Owner</span>
+            }
+            @case (1) {
+            <app-rental-property-form />
+            }
+            @case (2) {
+            <span>Rental Property Reporting</span>
+            }
+            @case (3) {
+            <span>Rental Property Licenses</span>
+            }
+            @case (4) {
+            <span>Agreements</span>
+            }
+            }
+
+        </div>
+    </div>
+    <div class="actions-container">
+        <app-owner-table />
+    </div>
+</div>

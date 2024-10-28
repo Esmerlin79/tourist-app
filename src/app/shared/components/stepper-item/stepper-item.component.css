@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: 170px;
+}
+.circle {
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    background-color: #A6A8A9;
+}
+
+.circle-selected{
+    background-color: #2196F3 !important;
+}
+.circle-completed{
+    background-color: #2196F3 !important;
+}

@@ -1,0 +1,52 @@
+<div>
+    <h3 *ngIf="!data?.id">Additional owner</h3>
+    <h3 *ngIf="isUpdate && data?.id">Edit owner</h3>
+    <form [formGroup]="form">
+        <mat-form-field appearance="outline">
+            <input formControlName="firstName" matInput placeholder="First name" required />
+            <mat-error *ngIf="form.controls['firstName'].hasError('required')">
+                First Name is required
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <input formControlName="lastName" matInput placeholder="Last name" required />
+            <mat-error *ngIf="form.controls['lastName'].hasError('required')">
+                Last Name is required
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <input type="email" formControlName="email" matInput placeholder="Email address" required />
+            <mat-error *ngIf="form.controls['email'].hasError('required')">
+                Email is required
+            </mat-error>
+            <mat-error *ngIf="form.controls['email'].hasError('email')">
+                Email is required
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <input formControlName="phone" matInput placeholder="Phone number" required />
+            <mat-error *ngIf="form.controls['phone'].hasError('required')">
+                Phone is required
+            </mat-error>
+        </mat-form-field>
+    </form>
+    <div class="button-container">
+        <app-custom-button 
+            (onClick)="handleGoBack()" 
+            [label]="'Go Back'" 
+            [icon]="'arrow_back'" 
+            [disabled]="false"
+            [withStartIcon]="true" 
+            [withEndIcon]="false" 
+        />
+        <app-custom-button 
+            (onClick)="handleSave()" 
+            type="solid" 
+            [label]="'Save'" 
+            [icon]="'save'" 
+            [disabled]="false"
+            [withStartIcon]="true" 
+            [withEndIcon]="false" 
+        />
+    </div>
+</div>

@@ -1,0 +1,59 @@
+<div class="container">
+
+    <form [formGroup]="form">
+        <mat-form-field class="inputs" [appearance]="'outline'">
+            <input formControlName="address" matInput placeholder="Rental property street address" required />
+        </mat-form-field>
+        <mat-form-field class="inputs" [appearance]="'outline'">
+            <input matInput formControlName="address2" placeholder="Apt/Unit/Suite(optional)" required />
+        </mat-form-field>
+        <div class="column-3">
+            <mat-form-field [appearance]="'outline'">
+                <input matInput placeholder="City" formControlName="city" required />
+            </mat-form-field>
+            <mat-form-field [appearance]="'outline'">
+                <mat-select formControlName="state" required>
+                    <mat-option value="option1">State 1</mat-option>
+                    <mat-option value="option2">State 2</mat-option>
+                    <mat-option value="option3">State 3</mat-option>
+                    <mat-option value="option4">State 4</mat-option>
+
+                </mat-select>
+                <mat-label>State</mat-label>
+            </mat-form-field>
+            <mat-form-field [appearance]="'outline'">
+                <input matInput placeholder="Zip code" formControlName="zip" required />
+            </mat-form-field>
+        </div>
+        <div class="column-2">
+            <mat-form-field class="inputs" [appearance]="'outline'">
+                <input matInput formControlName="started" [matDatepicker]="picker">
+                <mat-label>Started renting</mat-label>
+
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field [appearance]="'outline'">
+                <mat-select formControlName="frequency" required>
+                    <mat-option value="option1">Option 1</mat-option>
+                    <mat-option value="option2">Option 2</mat-option>
+                    <mat-option value="option3">Option 3</mat-option>
+                    <mat-option value="option4">Option 4</mat-option>
+
+                </mat-select>
+                <mat-label> Filing frequency</mat-label>
+            </mat-form-field>
+        </div>
+        <mat-checkbox formControlName="dontUsePlatform">
+            I don’t use any platform to rent out my property
+        </mat-checkbox>
+        <mat-form-field class="inputs" [appearance]="'outline'">
+            <input [readonly]="dontUsePlatform" formControlName="platformLink" matInput
+                placeholder="If you use a digital platform, paste link here" />
+        </mat-form-field>
+        <mat-form-field class="inputs" [appearance]="'outline'">
+            <input formControlName="businessName" matInput placeholder="Rental Property Business Name (optional)"
+                required />
+        </mat-form-field>
+    </form>
+</div>
