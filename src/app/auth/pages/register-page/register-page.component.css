@@ -13,12 +13,14 @@
 .container {
   min-height: 75dvh;
   display: flex;
+  padding-right: 15px;
 }
 
 .actions-container {
   min-width: calc(40% - 20px);
   min-height: 100%;
   padding: 10px;
+  margin-right: 25px;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -37,7 +39,22 @@
   .stepper-container {
     min-height: 500px;
   }
+  .actions-container {
+    width: 65%;
+    align-self: flex-end;
+    margin-top: -90px;
+  }
+  .form-container {
+    max-width: 70%;
+    padding: 20px 0px;
+  }
 }
+
+/* @media only screen and (max-width: 1024px) {
+  .actions-container {
+    width: 65%;
+  }
+} */
 
 @media only screen and (max-width: 768px) {
   .stepper {
@@ -46,5 +63,13 @@
   .form-container {
     max-width: 100%;
     padding: 20px 0px;
+  }
+  .actions-container {
+    min-width: 96%;
+    margin-top: 0px;
+    align-self: flex-start;
+  }
+  .container {
+    padding-right: 0px;
   }
 }

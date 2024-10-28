@@ -1,0 +1,3351 @@
+{
+    "pipes": [],
+    "interfaces": [
+        {
+            "name": "Owner",
+            "id": "interface-Owner-4ffdfd43f056827bf4c0c9ef6eb1b90ee2085a57a21ba6f516478798838f358b7aeb7a489dc7c143f6e3d9a83c87c2339088cef1204c016a322c6d1f367a407d",
+            "file": "src/app/auth/interfaces/owner.interfaces.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface Owner {\n    id?: string;\n    firstName: string;\n    lastName: string;\n    email: string;\n    phone: string;\n  }\n  ",
+            "properties": [
+                {
+                    "name": "email",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 6
+                },
+                {
+                    "name": "firstName",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 4
+                },
+                {
+                    "name": "id",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": true,
+                    "description": "",
+                    "line": 3
+                },
+                {
+                    "name": "lastName",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 5
+                },
+                {
+                    "name": "phone",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 7
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 171,
+            "methods": [],
+            "extends": []
+        },
+        {
+            "name": "RentalProperty",
+            "id": "interface-RentalProperty-5fc91af710ff3fcf7e115cefe05e68707cf90cd17bb6ee0934acb3b5e6fd08489526fbe971ecee217731762c652713d2d827badd4ab5a22e210d47a806010221",
+            "file": "src/app/auth/interfaces/rentalProperty.interfaces.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface RentalProperty {\n    address: string;\n    address2: string;\n    city: string;\n    state: string;\n    zip: string;\n    frequency: string;\n    started: string;\n    dontUsePlatform: boolean;\n    platformLink: string;\n    businessName: string;\n  }",
+            "properties": [
+                {
+                    "name": "address",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 2
+                },
+                {
+                    "name": "address2",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 3
+                },
+                {
+                    "name": "businessName",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 11
+                },
+                {
+                    "name": "city",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 4
+                },
+                {
+                    "name": "dontUsePlatform",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "boolean",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 9
+                },
+                {
+                    "name": "frequency",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 7
+                },
+                {
+                    "name": "platformLink",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 10
+                },
+                {
+                    "name": "started",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 8
+                },
+                {
+                    "name": "state",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 5
+                },
+                {
+                    "name": "zip",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 6
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 171,
+            "methods": [],
+            "extends": []
+        },
+        {
+            "name": "StepperItem",
+            "id": "interface-StepperItem-b99bba6023c13594b975994b52f172a44405df123dcd8d33c854339eafe5e541e1c9e30c242474c2cd24047282895f82f97ffaa8a5a29944aca6c1e2033cbce6",
+            "file": "src/app/shared/interfaces/custom-stepper/stepper.interfaces.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface StepperItem {\n    index: number\n    label: string;\n    completed: boolean;\n    current: boolean;\n  }",
+            "properties": [
+                {
+                    "name": "completed",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "boolean",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 4
+                },
+                {
+                    "name": "current",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "boolean",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 5
+                },
+                {
+                    "name": "index",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "number",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 2
+                },
+                {
+                    "name": "label",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 3
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 171,
+            "methods": [],
+            "extends": []
+        },
+        {
+            "name": "User",
+            "id": "interface-User-d4821beac0e4a852e513391b7470981c4353fdd95a18628bb68136c8695b489ee15b926e2e5031bc26cf30e1508e0a362c3ee13a06734702b4d15af140e485d5",
+            "file": "src/stories/user.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface User {\n  name: string;\n}\n",
+            "properties": [
+                {
+                    "name": "name",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 2
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 171,
+            "methods": [],
+            "extends": []
+        }
+    ],
+    "injectables": [
+        {
+            "name": "FormService",
+            "id": "injectable-FormService-0afff9f46f1d07b1cba88254945f159cd8e8e6c185a3ed81b7b3d8169040714668222a712e1489637006164d4263540c5fdc6c99eeb88a6795f73a95599f7d70",
+            "file": "src/app/auth/services/form.service.ts",
+            "properties": [
+                {
+                    "name": "_formData",
+                    "defaultValue": "new BehaviorSubject<RentalProperty>({\n    address:\"\",\n    address2:\"\",\n    city:\"\",\n    state:\"\",\n    zip:\"\",\n    frequency:\"\",\n    started:\"\",\n    dontUsePlatform:false,\n    platformLink:\"\",\n    businessName:\"\"\n  })",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 8,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "_isCompletedForm",
+                    "defaultValue": "new BehaviorSubject<boolean>(false)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 21,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "currentData",
+                    "defaultValue": "this._formData.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 24
+                },
+                {
+                    "name": "currentIsCompletedForm",
+                    "defaultValue": "this._isCompletedForm.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 23
+                }
+            ],
+            "methods": [
+                {
+                    "name": "changeValue",
+                    "args": [
+                        {
+                            "name": "data",
+                            "type": "RentalProperty",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 31,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "data",
+                            "type": "RentalProperty",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "getCurrentData",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "any",
+                    "typeParameters": [],
+                    "line": 27,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "resetData",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 36,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "description": "",
+            "rawdescription": "\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { BehaviorSubject } from 'rxjs';\nimport { RentalProperty } from '../interfaces/rentalProperty.interfaces';\n\n@Injectable({ providedIn: 'root' })\nexport class FormService {\n\n  private _formData = new BehaviorSubject<RentalProperty>({\n    address:\"\",\n    address2:\"\",\n    city:\"\",\n    state:\"\",\n    zip:\"\",\n    frequency:\"\",\n    started:\"\",\n    dontUsePlatform:false,\n    platformLink:\"\",\n    businessName:\"\"\n  });\n  \n  private _isCompletedForm = new BehaviorSubject<boolean>(false);\n  \n  currentIsCompletedForm = this._isCompletedForm.asObservable();\n  currentData = this._formData.asObservable();\n\n\n  getCurrentData() {\n    return this._formData.getValue();\n  }\n\n  changeValue(data: RentalProperty) {\n    this._formData.next(data);\n  \n  }\n\n  resetData() {\n    this._formData.next({\n      address:\"\",\n      address2:\"\",\n      city:\"\",\n      state:\"\",\n      zip:\"\",\n      frequency:\"\",\n      started:\"\",\n      dontUsePlatform:false,\n      platformLink:\"\",\n      businessName:\"\"\n    });\n  }\n}",
+            "extends": [],
+            "type": "injectable"
+        },
+        {
+            "name": "ModalService",
+            "id": "injectable-ModalService-a906b8ccdeeeeea84ebb4d51d8117023e04e3f8898d25226ba4f1b3866ec6645198593d750ab4361fd3407b7e33ab824883f2c856e3fd30ea91238b7790c331d",
+            "file": "src/app/shared/services/modal.service.ts",
+            "properties": [
+                {
+                    "name": "_isOpenModal",
+                    "defaultValue": "new BehaviorSubject<boolean>(false)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 7,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "currentIsOpen",
+                    "defaultValue": "this._isOpenModal.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 10,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methods": [
+                {
+                    "name": "changeValue",
+                    "args": [
+                        {
+                            "name": "data",
+                            "type": "boolean",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 16,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "data",
+                            "type": "boolean",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "getCurrentData",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "any",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "description": "",
+            "rawdescription": "\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { BehaviorSubject } from 'rxjs';\n\n@Injectable({ providedIn: 'root' })\nexport class ModalService {\n \n  private _isOpenModal = new BehaviorSubject<boolean>(false);\n  \n\n  public currentIsOpen = this._isOpenModal.asObservable();\n\n  getCurrentData() {\n    return this._isOpenModal.getValue();\n  }\n\n  changeValue(data: boolean) {\n    this._isOpenModal.next(data);\n  }\n\n  \n}",
+            "extends": [],
+            "type": "injectable"
+        },
+        {
+            "name": "OwnerFormService",
+            "id": "injectable-OwnerFormService-202b2b3479c1a76e8b037c7e876577eb7d991dedd83b7fd8d53b4a8ba2e9ca991dd74c3e6b920c9383ce1f07c81094a93c860f94e89216c7b838549fb61d4b60",
+            "file": "src/app/auth/services/owner-form.service.ts",
+            "properties": [
+                {
+                    "name": "_formData",
+                    "defaultValue": "new BehaviorSubject<Owner>({\n    id: '',\n    firstName: '',\n    lastName: '',\n    email: '',\n    phone: '',\n  })",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 9,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "currentData",
+                    "defaultValue": "this._formData.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 17,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methods": [
+                {
+                    "name": "changeValue",
+                    "args": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 27,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "getCurrentData",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "any",
+                    "typeParameters": [],
+                    "line": 23,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "resetData",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 31,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "setCurrentData",
+                    "args": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 19,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "description": "",
+            "rawdescription": "\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { BehaviorSubject } from 'rxjs';\n\nimport { Owner } from '../interfaces/owner.interfaces';\n\n@Injectable({ providedIn: 'root' })\nexport class OwnerFormService {\n\n  private _formData = new BehaviorSubject<Owner>({\n    id: '',\n    firstName: '',\n    lastName: '',\n    email: '',\n    phone: '',\n  });\n\n  public currentData = this._formData.asObservable();\n\n  setCurrentData(data: Owner) {\n    this._formData.next(data);\n  }\n\n  getCurrentData() {\n    return this._formData.getValue();\n  }\n\n  changeValue(data: Owner) {\n    this._formData.next(data);\n  }\n\n  resetData() {\n    this._formData.next({\n      firstName: '',\n      lastName: '',\n      email: '',\n      phone: '',\n    });\n  }\n}\n",
+            "extends": [],
+            "type": "injectable"
+        },
+        {
+            "name": "OwnerService",
+            "id": "injectable-OwnerService-e81d63ae9a5e7a429f068dca065790ec1d3718139bcb68a572d49fe2490254b232fc11a0fc78bd86453fe70a0f9c15f0a7892b0c7862688fca0fc478a40b8d15",
+            "file": "src/app/auth/services/owner.service.ts",
+            "properties": [
+                {
+                    "name": "_owners",
+                    "defaultValue": "new BehaviorSubject<Owner[]>([])",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 7,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "currentOwners",
+                    "defaultValue": "this._owners.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 9,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methods": [
+                {
+                    "name": "changeValue",
+                    "args": [
+                        {
+                            "name": "data",
+                            "type": "Owner[]",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 17,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "data",
+                            "type": "Owner[]",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "createOwner",
+                    "args": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 21,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "deleteOwner",
+                    "args": [
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 50,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "getCurrentData",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "any",
+                    "typeParameters": [],
+                    "line": 11,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "getOwners",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "any",
+                    "typeParameters": [],
+                    "line": 65,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "updateOwner",
+                    "args": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 35,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "description": "",
+            "rawdescription": "\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { BehaviorSubject } from 'rxjs';\nimport { Owner } from '../interfaces/owner.interfaces';\n\n@Injectable({ providedIn: 'root' })\nexport class OwnerService {\n  private _owners = new BehaviorSubject<Owner[]>([]);\n\n  public currentOwners = this._owners.asObservable();\n\n  getCurrentData() {\n    const resp = this.getOwners();\n    this.changeValue(resp);\n    return this._owners.getValue();\n  }\n\n  changeValue(data: Owner[]) {\n    this._owners.next(data);\n  }\n\n  createOwner(data: Owner) {\n    data.id = Date.now().toString();\n    const ownersLocalStorage = localStorage.getItem('owners');\n    if (ownersLocalStorage) {\n      const owners = JSON.parse(ownersLocalStorage);\n      owners.push(data);\n      localStorage.setItem('owners', JSON.stringify(owners));\n    } else {\n      localStorage.setItem('owners', JSON.stringify([data]));\n    }\n    const ownersList = this.getOwners();\n    this.changeValue(ownersList);\n  }\n\n  updateOwner(data: Owner) {\n    const owners = localStorage.getItem('owners');\n    if (owners) {\n      const ownersList = JSON.parse(owners);\n      ownersList.forEach((owner: Owner, index: number) => {\n        if (owner.id === data.id) {\n          ownersList[index] = data;\n        }\n      });\n      localStorage.setItem('owners', JSON.stringify(ownersList));\n    }\n    const ownersList = this.getOwners();\n    this.changeValue(ownersList);\n  }\n\n  deleteOwner(id: string) {\n    const owners = localStorage.getItem('owners');\n    if (owners) {\n      const ownersList = JSON.parse(owners);\n      ownersList.forEach((owner: Owner, index: number) => {\n        if (owner.id === id) {\n          ownersList.splice(index, 1);\n        }\n      });\n      localStorage.setItem('owners', JSON.stringify(ownersList));\n    }\n    const ownersList = this.getOwners();\n    this.changeValue(ownersList);\n  }\n\n  getOwners() {\n    const owners = localStorage.getItem('owners');\n    if (owners) {\n      return JSON.parse(owners);\n    } else {\n      return [];\n    }\n  }\n}\n",
+            "extends": [],
+            "type": "injectable"
+        },
+        {
+            "name": "StepperService",
+            "id": "injectable-StepperService-3b63aade828ae42ce3f515d1800f71d39c7fecd60b9bb779141447962402532f9585b0269271b0c04aaddecfc2bcf0379b7b27fee4a49746e604303942bf4882",
+            "file": "src/app/shared/services/stepper.service.ts",
+            "properties": [
+                {
+                    "name": "_currentStepCompletedSource",
+                    "defaultValue": "new BehaviorSubject<boolean>(false)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 7,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "_currentStepSource",
+                    "defaultValue": "new BehaviorSubject<number>(0)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 6,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "_totalStepsSource",
+                    "defaultValue": "new BehaviorSubject<number>(0)",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 8,
+                    "modifierKind": [
+                        123
+                    ]
+                },
+                {
+                    "name": "currentStep",
+                    "defaultValue": "this._currentStepSource.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 10,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "currentStepCompleted",
+                    "defaultValue": "this._currentStepCompletedSource.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 11,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "totalSteps",
+                    "defaultValue": "this._totalStepsSource.asObservable()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 12,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methods": [
+                {
+                    "name": "changeStatusStep",
+                    "args": [
+                        {
+                            "name": "status",
+                            "type": "boolean",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 18,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "status",
+                            "type": "boolean",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "changeStep",
+                    "args": [
+                        {
+                            "name": "step",
+                            "type": "number",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 22,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "step",
+                            "type": "number",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "resetStep",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 26,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "setTotalSteps",
+                    "args": [
+                        {
+                            "name": "steps",
+                            "type": "number",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 14,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "steps",
+                            "type": "number",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "description": "",
+            "rawdescription": "\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { BehaviorSubject } from 'rxjs';\n\n@Injectable({ providedIn: 'root' })\nexport class StepperService {\n  private _currentStepSource = new BehaviorSubject<number>(0);\n  private _currentStepCompletedSource = new BehaviorSubject<boolean>(false);\n  private _totalStepsSource = new BehaviorSubject<number>(0);\n\n  public currentStep = this._currentStepSource.asObservable();\n  public currentStepCompleted = this._currentStepCompletedSource.asObservable();\n  public totalSteps = this._totalStepsSource.asObservable();\n\n  setTotalSteps(steps: number) {\n    this._totalStepsSource.next(steps);\n  }\n\n  changeStatusStep(status: boolean) {\n    this._currentStepCompletedSource.next(status);\n  }\n\n  changeStep(step: number) {\n    this._currentStepSource.next(step);\n  }\n\n  resetStep() {\n    this._currentStepSource.next(0);\n  }\n}\n",
+            "extends": [],
+            "type": "injectable"
+        }
+    ],
+    "guards": [],
+    "interceptors": [],
+    "classes": [],
+    "directives": [],
+    "components": [
+        {
+            "name": "AppComponent",
+            "id": "component-AppComponent-8ae091159b02b41d3b35376d928ba2d000d6158318c3dd5ea92d9cfe96e2a3c30e47cf6ea6e30d10c90842b347a597980b58dfad876821784f2a1417fd0b92bc",
+            "file": "src/app/app.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-root",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./app.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "title",
+                    "defaultValue": "'tourist-app'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 9
+                }
+            ],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrl: './app.component.css'\n})\nexport class AppComponent {\n  title = 'tourist-app';\n}\n",
+            "styleUrl": "./app.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "\n<router-outlet />"
+        },
+        {
+            "name": "ButtonComponent",
+            "id": "component-ButtonComponent-d7bf0323e6da130e2609e2af0117b4a8d7cd874132206af50bf43dfc37044485fe50f2867ea76525730dd195b9b95a43802a12dadc6ad5cd7bf2faa07f19f0da",
+            "file": "src/stories/button.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "storybook-button",
+            "styleUrls": [
+                "./button.css"
+            ],
+            "styles": [],
+            "template": " <button  type=\"button\"\n  (click)=\"onClick.emit($event)\"\n  [ngClass]=\"classes\"\n  [ngStyle]=\"{ 'background-color': backgroundColor }\"\n>\n  {{ label }}\n</button>",
+            "templateUrl": [],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "backgroundColor",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "rawdescription": "\nWhat background color to use",
+                    "description": "<p>What background color to use</p>\n",
+                    "line": 25,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "label",
+                    "defaultValue": "'Button'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "pos": 760,
+                            "end": 773,
+                            "kind": 327,
+                            "id": 0,
+                            "flags": 16842752,
+                            "modifierFlagsCache": 0,
+                            "transformFlags": 0,
+                            "tagName": {
+                                "pos": 761,
+                                "end": 769,
+                                "kind": 80,
+                                "id": 0,
+                                "flags": 16842752,
+                                "transformFlags": 0,
+                                "escapedText": "required"
+                            },
+                            "comment": ""
+                        }
+                    ],
+                    "rawdescription": "\n\nButton contents\n\n",
+                    "description": "<p>Button contents</p>\n",
+                    "line": 37,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "primary",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "rawdescription": "\nIs this the principal call to action on the page?",
+                    "description": "<p>Is this the principal call to action on the page?</p>\n",
+                    "line": 21,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "size",
+                    "defaultValue": "'medium'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "rawdescription": "\nHow large should the button be?",
+                    "description": "<p>How large should the button be?</p>\n",
+                    "line": 29,
+                    "type": "\"small\" | \"medium\" | \"large\"",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [
+                {
+                    "name": "onClick",
+                    "defaultValue": "new EventEmitter<Event>()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "rawdescription": "\nOptional click handler",
+                    "description": "<p>Optional click handler</p>\n",
+                    "line": 41,
+                    "type": "EventEmitter"
+                }
+            ],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'storybook-button',\n  standalone: true,\n  imports: [CommonModule],\n  template: ` <button\n  type=\"button\"\n  (click)=\"onClick.emit($event)\"\n  [ngClass]=\"classes\"\n  [ngStyle]=\"{ 'background-color': backgroundColor }\"\n>\n  {{ label }}\n</button>`,\n  styleUrls: ['./button.css'],\n})\nexport class ButtonComponent {\n  /** Is this the principal call to action on the page? */\n  @Input()\n  primary = false;\n\n  /** What background color to use */\n  @Input()\n  backgroundColor?: string;\n\n  /** How large should the button be? */\n  @Input()\n  size: 'small' | 'medium' | 'large' = 'medium';\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Button';\n\n  /** Optional click handler */\n  @Output()\n  onClick = new EventEmitter<Event>();\n\n  public get classes(): string[] {\n    const mode = this.primary ? 'storybook-button--primary' : 'storybook-button--secondary';\n\n    return ['storybook-button', `storybook-button--${this.size}`, mode];\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".storybook-button {\n  display: inline-block;\n  cursor: pointer;\n  border: 0;\n  border-radius: 3em;\n  font-weight: 700;\n  line-height: 1;\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n}\n.storybook-button--primary {\n  background-color: #1ea7fd;\n  color: white;\n}\n.storybook-button--secondary {\n  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;\n  background-color: transparent;\n  color: #333;\n}\n.storybook-button--small {\n  padding: 10px 16px;\n  font-size: 12px;\n}\n.storybook-button--medium {\n  padding: 11px 20px;\n  font-size: 14px;\n}\n.storybook-button--large {\n  padding: 12px 24px;\n  font-size: 16px;\n}\n",
+                    "styleUrl": "./button.css"
+                }
+            ],
+            "stylesData": "",
+            "extends": [],
+            "accessors": {
+                "classes": {
+                    "name": "classes",
+                    "getSignature": {
+                        "name": "classes",
+                        "type": "[]",
+                        "returnType": "string[]",
+                        "line": 43
+                    }
+                }
+            }
+        },
+        {
+            "name": "CustomButtonComponent",
+            "id": "component-CustomButtonComponent-9402704cd6de54c1161d2c7f27b91615f41e60713fe3f8a99dd4bb3b9a13115776387ce6529c24a1fd2cb9046fb9be607b29f27be81bd08647cbfd7feace484c",
+            "file": "src/app/shared/components/custom-button/custom-button.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-custom-button",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./custom-button.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "color",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 24,
+                    "type": "\"danger\" | \"info\"",
+                    "decorators": []
+                },
+                {
+                    "name": "disabled",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 25,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "icon",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 23,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "label",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 20,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "type",
+                    "defaultValue": "'outline'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 26,
+                    "type": "\"outline\" | \"solid\"",
+                    "decorators": []
+                },
+                {
+                    "name": "withEndIcon",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 22,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "withStartIcon",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 21,
+                    "type": "boolean",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [
+                {
+                    "name": "onClick",
+                    "defaultValue": "new EventEmitter<void>()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 27,
+                    "type": "EventEmitter"
+                }
+            ],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "handleClick",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 31,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "MatIcon"
+                },
+                {
+                    "name": "MatButtonModule",
+                    "type": "module"
+                },
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, EventEmitter, Input, Output } from '@angular/core';\n\nimport { MatButtonModule } from '@angular/material/button';\nimport { MatIcon } from '@angular/material/icon';\n\n@Component({\n  standalone: true,\n  selector: 'app-custom-button',\n  templateUrl: './custom-button.component.html',\n  styleUrl: './custom-button.component.css',\n  imports: [\n    MatIcon,\n    MatButtonModule,\n    CommonModule,\n  ],\n})\nexport class CustomButtonComponent {\n\n  @Input() label!: string;\n  @Input() withStartIcon!: boolean;\n  @Input() withEndIcon!: boolean;\n  @Input() icon!: string;\n  @Input() color!: 'danger' | 'info';\n  @Input() disabled!: boolean;\n  @Input() type: 'outline' | 'solid' = 'outline';\n  @Output() onClick = new EventEmitter<void>();\n\n  constructor() {}\n\n  handleClick() {\n    if (!this.disabled) this.onClick.emit();\n  }\n  \n}\n",
+            "styleUrl": "./custom-button.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 27
+            },
+            "extends": [],
+            "templateData": "<ng-container [ngSwitch]=\"type\">\n    <button\n      *ngSwitchCase=\"'outline'\"\n      mat-stroked-button\n      (click)=\"handleClick()\"\n      [disabled]=\"disabled\"\n      [ngClass]=\"{ 'danger': color === 'danger', 'info': color === 'info' }\"\n    >\n      <div class=\"btn-content\">\n        <mat-icon *ngIf=\"withStartIcon\" class=\"icon\">{{ icon }}</mat-icon>\n        {{ label }}\n        <mat-icon *ngIf=\"withEndIcon\" class=\"icon\">{{ icon }}</mat-icon>\n      </div>\n    </button>\n  \n    <button\n      *ngSwitchCase=\"'solid'\"\n      mat-flat-button\n      (click)=\"handleClick()\"\n      [disabled]=\"disabled\"\n      [ngClass]=\"{ 'danger': color === 'danger', 'info': color === 'info' }\"\n    >\n      <div class=\"btn-content\">\n        <mat-icon *ngIf=\"withStartIcon\" class=\"icon\">{{ icon }}</mat-icon>\n        {{ label }}\n        <mat-icon *ngIf=\"withEndIcon\" class=\"icon\">{{ icon }}</mat-icon>\n      </div>\n    </button>\n  \n    <button\n      *ngSwitchDefault\n      mat-stroked-button\n      (click)=\"handleClick()\"\n      [disabled]=\"disabled\"\n      [ngClass]=\"{ 'danger': color === 'danger', 'info': color === 'info' }\"\n    >\n      <div class=\"btn-content\">\n        <mat-icon *ngIf=\"withStartIcon\" class=\"icon\">{{ icon }}</mat-icon>\n        {{ label }}\n        <mat-icon *ngIf=\"withEndIcon\" class=\"icon\">{{ icon }}</mat-icon>\n      </div>\n    </button>\n  </ng-container>"
+        },
+        {
+            "name": "CustomStepperComponent",
+            "id": "component-CustomStepperComponent-bb2983b6a8ac3cd6e0c3f487b22838c349d1f0079d09a637e9f3babdfe3c72a3bce96b5d1d06037b1e222d17ea8a2f7678a58c04749bb8ec9c745e3ec9f4b821",
+            "file": "src/app/shared/components/custom-stepper/custom-stepper.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-custom-stepper",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./custom-stepper.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "stepperItems",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 22,
+                    "type": "StepperItem[]",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "currentStep",
+                    "defaultValue": "0",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "number",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 23,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "changeStepItems",
+                    "args": [
+                        {
+                            "name": "step",
+                            "type": "number",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        },
+                        {
+                            "name": "status",
+                            "type": "boolean",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "defaultValue": "false"
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 38,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "step",
+                            "type": "number",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        },
+                        {
+                            "name": "status",
+                            "type": "boolean",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "defaultValue": "false",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 27,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "StepperItemComponent",
+                    "type": "component"
+                },
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\nimport { StepperItem } from '../../interfaces/custom-stepper/stepper.interfaces';\n\nimport { StepperService } from '../../services/stepper.service';\n\nimport { StepperItemComponent } from '../stepper-item/stepper-item.component';\nimport { CommonModule } from '@angular/common';\n\n@Component({\n  standalone: true,\n  selector: 'app-custom-stepper',\n  templateUrl: './custom-stepper.component.html',\n  styleUrl: './custom-stepper.component.css',\n  imports: [\n    StepperItemComponent,\n    CommonModule,\n  ],\n})\nexport class CustomStepperComponent {\n  \n  @Input() stepperItems: StepperItem[] = [];\n  public currentStep: number = 0;\n\n  constructor(private stepperService: StepperService) {}\n\n  ngOnInit() {\n    this.stepperService.currentStep.subscribe((step) => {\n      this.currentStep = step;\n      this.changeStepItems(step);\n    })\n    this.stepperService.currentStepCompleted.subscribe((status) => {\n      this.changeStepItems(this.currentStep, status);\n    })\n    this.stepperService.setTotalSteps(this.stepperItems.length);\n  }\n\n  changeStepItems(step: number, status: boolean = false) {\n    this.stepperItems.forEach((item) => {\n      item.current = false;\n      item.completed = false;\n      \n      if (item.index == step) {\n        item.completed = status;\n        item.current = true;\n      }\n\n      if (step > item.index) {\n        item.completed = true;\n      }\n    });\n  }\n}\n",
+            "styleUrl": "./custom-stepper.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 23,
+                "jsdoctags": [
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "templateData": "<div class=\"container\">\n    @for (item of stepperItems; track $index) {\n     <div class=\"item-container\">\n         <app-stepper-item [data]=\"item\" />\n         <div *ngIf=\"$index < stepperItems.length - 1\" [ngClass]=\"{'vertical-line': true, 'vertical-line-completed': item.completed}\" ></div>\n     </div>\n    }\n </div>\n "
+        },
+        {
+            "name": "Error404Component",
+            "id": "component-Error404Component-3b56bddf92fc34decc95897c3d88e564cfd1659cb1910e277ca4ec55ccb55e803cf98d0bef22fc3602d0e4a0d6f8fb89daeeca5b3b5eaef0f321556f7bb42b6b",
+            "file": "src/app/shared/pages/error404/error404.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-error404",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./error404.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  standalone: true,\n  selector: 'app-error404',\n  templateUrl: './error404.component.html',\n  styleUrl: './error404.component.css'\n})\nexport class Error404Component {\n\n}\n",
+            "styleUrl": "./error404.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<p>error404 works!</p>\n"
+        },
+        {
+            "name": "HeaderComponent",
+            "id": "component-HeaderComponent-48b9abe37706bc42f20cfa97ed9f943678344ea7d254c0c82183c657750c2191b43486fe730c778627b2ea6aa0e2f33a7abcf3ce08b68ad18b062ad99ea97acb",
+            "file": "src/stories/header.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "storybook-header",
+            "styleUrls": [
+                "./header.css"
+            ],
+            "styles": [],
+            "template": "<header>  <div class=\"storybook-header\">\n    <div>\n      <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n            fill=\"#FFF\"\n          />\n          <path\n            d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n            fill=\"#555AB9\"\n          />\n          <path d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\" fill=\"#91BAF8\" />\n        </g>\n      </svg>\n      <h1>Acme</h1>\n    </div>\n    <div>\n      <div *ngIf=\"user\">\n        <span class=\"welcome\">\n          Welcome, <b>{{ user.name }}</b\n          >!\n        </span>\n        <storybook-button\n          *ngIf=\"user\"\n          size=\"small\"\n          (onClick)=\"onLogout.emit($event)\"\n          label=\"Log out\"\n        ></storybook-button>\n      </div>\n      <div *ngIf=\"!user\">\n        <storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          class=\"margin-left\"\n          (onClick)=\"onLogin.emit($event)\"\n          label=\"Log in\"\n        ></storybook-button>\n        <storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          [primary]=\"true\"\n          class=\"margin-left\"\n          (onClick)=\"onCreateAccount.emit($event)\"\n          label=\"Sign up\"\n        ></storybook-button>\n      </div>\n    </div>\n  </div>\n</header>",
+            "templateUrl": [],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "user",
+                    "defaultValue": "null",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 66,
+                    "type": "User | null",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [
+                {
+                    "name": "onCreateAccount",
+                    "defaultValue": "new EventEmitter<Event>()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 75,
+                    "type": "EventEmitter"
+                },
+                {
+                    "name": "onLogin",
+                    "defaultValue": "new EventEmitter<Event>()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 69,
+                    "type": "EventEmitter"
+                },
+                {
+                    "name": "onLogout",
+                    "defaultValue": "new EventEmitter<Event>()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 72,
+                    "type": "EventEmitter"
+                }
+            ],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                },
+                {
+                    "name": "ButtonComponent",
+                    "type": "component"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\nimport { ButtonComponent } from './button.component';\nimport type { User } from './user';\n\n@Component({\n  selector: 'storybook-header',\n  standalone: true,\n  imports: [CommonModule, ButtonComponent],\n  template: `<header>\n  <div class=\"storybook-header\">\n    <div>\n      <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n            fill=\"#FFF\"\n          />\n          <path\n            d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n            fill=\"#555AB9\"\n          />\n          <path d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\" fill=\"#91BAF8\" />\n        </g>\n      </svg>\n      <h1>Acme</h1>\n    </div>\n    <div>\n      <div *ngIf=\"user\">\n        <span class=\"welcome\">\n          Welcome, <b>{{ user.name }}</b\n          >!\n        </span>\n        <storybook-button\n          *ngIf=\"user\"\n          size=\"small\"\n          (onClick)=\"onLogout.emit($event)\"\n          label=\"Log out\"\n        ></storybook-button>\n      </div>\n      <div *ngIf=\"!user\">\n        <storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          class=\"margin-left\"\n          (onClick)=\"onLogin.emit($event)\"\n          label=\"Log in\"\n        ></storybook-button>\n        <storybook-button\n          *ngIf=\"!user\"\n          size=\"small\"\n          [primary]=\"true\"\n          class=\"margin-left\"\n          (onClick)=\"onCreateAccount.emit($event)\"\n          label=\"Sign up\"\n        ></storybook-button>\n      </div>\n    </div>\n  </div>\n</header>`,\n  styleUrls: ['./header.css'],\n})\nexport class HeaderComponent {\n  @Input()\n  user: User | null = null;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".storybook-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  border-bottom: 1px solid rgba(0, 0, 0, 0.1);\n  padding: 15px 20px;\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n}\n\n.storybook-header svg {\n  display: inline-block;\n  vertical-align: top;\n}\n\n.storybook-header h1 {\n  display: inline-block;\n  vertical-align: top;\n  margin: 6px 0 6px 10px;\n  font-weight: 700;\n  font-size: 20px;\n  line-height: 1;\n}\n\n.storybook-header button + button {\n  margin-left: 10px;\n}\n\n.storybook-header .welcome {\n  margin-right: 10px;\n  color: #333;\n  font-size: 14px;\n}\n",
+                    "styleUrl": "./header.css"
+                }
+            ],
+            "stylesData": "",
+            "extends": []
+        },
+        {
+            "name": "LayoutPageComponent",
+            "id": "component-LayoutPageComponent-250bf09877729c6a2752c6b614eadc2948da4e50acf8d2114192e23fdac5c3197a4c1275eba992bfc3d7137b8684a0e9cae2115056e5ed016974ec659ad6b36c",
+            "file": "src/app/auth/pages/layout-page/layout-page.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-layout-page",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./layout-page.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport { StepperService } from '../../../shared/services/stepper.service';\n\n@Component({\n  selector: 'app-layout-page',\n  templateUrl: './layout-page.component.html',\n  styleUrl: './layout-page.component.css'\n})\nexport class LayoutPageComponent {\n\n  constructor() { }\n\n}\n",
+            "styleUrl": "./layout-page.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 9
+            },
+            "extends": [],
+            "templateData": "<div class=\"main-container\">\n    <app-navbar></app-navbar>\n    <app-mobile-stepper />\n    \n    <router-outlet></router-outlet>\n    <app-stepper-controls></app-stepper-controls>\n</div>\n\n"
+        },
+        {
+            "name": "LoginPageComponent",
+            "id": "component-LoginPageComponent-7a4f023c5f268bfb73ba78b9309c4cf8499a0b4cbdb7afc9aaf65bf6bc8ead51fb416b518183d78525c25110b66d8f9d2d6f83a8108343713f18c36174d5e175",
+            "file": "src/app/auth/pages/login-page/login-page.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-login-page",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./login-page.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-login-page',\n  templateUrl: './login-page.component.html',\n  styleUrl: './login-page.component.css'\n})\nexport class LoginPageComponent {\n\n}\n",
+            "styleUrl": "./login-page.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<p>login-page works!</p>\n"
+        },
+        {
+            "name": "MobileStepperComponent",
+            "id": "component-MobileStepperComponent-83a564bea42a0ac80ed5dcec7884fcbb7c267287ca88ad63aec4f91194ff0c7fa40c260af29408f50f0e489f7f589dfb45f67bd3db2cd4af159ec615b7af83b2",
+            "file": "src/app/shared/components/mobile-stepper/mobile-stepper.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-mobile-stepper",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./mobile-stepper.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "currentStep",
+                    "defaultValue": "0",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "number",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 12,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "stepsItemCount",
+                    "defaultValue": "0",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "number",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 11,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 16,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\nimport { StepperService } from '../../services/stepper.service';\n\n@Component({\n  standalone: true,\n  selector: 'app-mobile-stepper',\n  templateUrl: './mobile-stepper.component.html',\n  styleUrl: './mobile-stepper.component.css',\n})\nexport class MobileStepperComponent {\n  public stepsItemCount: number = 0;\n  public currentStep: number = 0;\n  \n  constructor(private stepperService: StepperService) {}\n\n  ngOnInit() {\n    this.stepperService.currentStep.subscribe((step) => {\n      this.currentStep = step;\n    });\n\n    this.stepperService.totalSteps.subscribe((steps) => {\n      this.stepsItemCount = steps;\n    });\n  }\n}\n",
+            "styleUrl": "./mobile-stepper.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 12,
+                "jsdoctags": [
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "templateData": "<div class=\"container\">\n    step {{currentStep + 1}} of {{ stepsItemCount }}\n</div>"
+        },
+        {
+            "name": "ModalComponent",
+            "id": "component-ModalComponent-a3daa53ed8b0b66a3c8dc6b91e79b7559993e8f48d906bb59261a96f27e9a426d471169c4da1a4b6af353e29709910ece91535c2b6eaba21d2faefe5f0537402",
+            "file": "src/app/shared/components/modal/modal.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-modal",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./modal.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "show",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 14,
+                    "type": "boolean",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [
+                {
+                    "name": "close",
+                    "defaultValue": "new EventEmitter<void>()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 15,
+                    "type": "EventEmitter"
+                }
+            ],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "onClose",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 17,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, EventEmitter, Input, Output } from '@angular/core';\n\n@Component({\n  standalone: true,\n  selector: 'app-modal',\n  templateUrl: './modal.component.html',\n  styleUrl: './modal.component.css',\n  imports: [\n    CommonModule\n  ],\n})\nexport class ModalComponent {\n  @Input() show: boolean = false; \n  @Output() close = new EventEmitter<void>(); \n\n  onClose() {\n    this.close.emit();\n  }\n}\n",
+            "styleUrl": "./modal.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<div class=\"modal-backdrop\" *ngIf=\"show\" (click)=\"onClose()\"></div>\n<div class=\"modal\" *ngIf=\"show\">\n    <div class=\"modal-content\">\n\n        <div class=\"modal-body\">\n            <ng-content></ng-content>\n        </div>\n\n    </div>\n</div>"
+        },
+        {
+            "name": "NavbarComponent",
+            "id": "component-NavbarComponent-32cdcbca066eff575117a01a10354a37eff141c8ac7fea01779e1f111706bd2332fe7dc0f67187d9ebd228b261519aa8ad0ab9c47a49376dd6a86cc99947bfc8",
+            "file": "src/app/shared/components/navbar/navbar.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-navbar",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./navbar.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "MatIcon"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport { MatIcon } from '@angular/material/icon';\n\n@Component({\n  standalone: true,\n  selector: 'app-navbar',\n  templateUrl: './navbar.component.html',\n  styleUrl: './navbar.component.css',\n  imports: [\n    MatIcon\n  ],\n})\nexport class NavbarComponent {\n\n}\n",
+            "styleUrl": "./navbar.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<nav class=\"navbar\">\n    <a href=\"/\">\n        <img class=\"logo\" src=\"/logo.png\" alt=\"\">\n    </a>\n    <div class=\"nav-items\">\n        <a class=\"nav-item nav-item-active \" routerLink=\"/auth/new-account\">CREATE AN ACCOUNT</a>\n        <a class=\"nav-item\" routerLink=\"/auth/new-account\">\n            <mat-icon>person</mat-icon>\n            <span>INDIVIDUAL PROPERTY OWNER</span>\n        </a>\n    </div>\n</nav>"
+        },
+        {
+            "name": "OwnerFormComponent",
+            "id": "component-OwnerFormComponent-a74c2d240e8e8cb10b4da441c4aa75d7ac796ca9c14ba76230b330a08aa0c2fd7b7e58ee15043e96be88b11e6b5e6045e78f55a3edccccd9a58fd547b0b3c9ac",
+            "file": "src/app/auth/components/owner-form/owner-form.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-owner-form",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./owner-form.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "data",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 15,
+                    "type": "Owner | null",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "form",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "FormGroup",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 16,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "isUpdate",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "boolean",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 17,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "handleGoBack",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 85,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "handleIsCompletedForm",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "boolean",
+                    "typeParameters": [],
+                    "line": 54,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "handleSave",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 70,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "ngOnChanges",
+                    "args": [
+                        {
+                            "name": "changes",
+                            "type": "SimpleChanges",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 36,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "changes",
+                            "type": "SimpleChanges",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "resetFrom",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 48,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input, SimpleChanges } from '@angular/core';\nimport { ModalService } from '../../../shared/services/modal.service';\nimport { OwnerFormService } from '../../services/owner-form.service';\nimport { OwnerService } from '../../services/owner.service';\nimport { FormBuilder, FormGroup, Validators } from '@angular/forms';\nimport { Owner } from '../../interfaces/owner.interfaces';\n\n@Component({\n  selector: 'app-owner-form',\n  templateUrl: './owner-form.component.html',\n  styleUrl: './owner-form.component.css'\n})\nexport class OwnerFormComponent {\n\n  @Input() data: Owner | null;\n  public form: FormGroup;\n  public isUpdate: boolean = false;\n\n  constructor(\n    private modalService: ModalService,\n    private ownerFormService: OwnerFormService,\n    private ownerService: OwnerService,\n    private fb: FormBuilder\n  ) {\n\n    const formData = this.ownerFormService.getCurrentData();\n    this.data = null\n    this.form = this.fb.group({\n      firstName: [formData.firstName, Validators.required],\n      lastName: [formData.lastName, Validators.required],\n      email: [formData.email, Validators.required],\n      phone: [formData.phone, Validators.required],\n    });\n  }\n\n  ngOnChanges(changes: SimpleChanges) {\n    if (changes[\"data\"]) {\n      const previousValue = changes['data'].previousValue;\n      const currentValue = changes['data'].currentValue;\n\n      if (previousValue !== currentValue) {\n        this.form.patchValue(currentValue);\n        this.isUpdate = true;\n      }\n    }\n  }\n\n  resetFrom() {\n    this.form.reset();\n    this.form.value.id = null;\n    this.isUpdate = false;\n  }\n\n  handleIsCompletedForm() {\n    const value = this.form.value as any; \n    let isCompleted = true;\n\n    for (let field in value) {\n      if (field == 'id') continue;\n      \n      if (value[field] == '' || value[field] == null) {\n        isCompleted = false;\n        break;\n      }\n    }\n\n    return isCompleted;\n  }\n\n  handleSave() {\n\n    if (this.handleIsCompletedForm()) {\n      if (this.isUpdate && this.data?.id) {\n        this.ownerService.updateOwner({id: this.data?.id!, ...this.form.value});\n      } else {\n        this.ownerService.createOwner(this.form.value);\n      }\n      this.modalService.changeValue(false);\n      this.resetFrom();\n    } else{\n      this.form.markAllAsTouched();\n    }\n  }\n\n  handleGoBack() {\n    this.modalService.changeValue(false);\n    this.resetFrom();\n  }\n  \n\n}\n",
+            "styleUrl": "./owner-form.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "modalService",
+                        "type": "ModalService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    },
+                    {
+                        "name": "ownerFormService",
+                        "type": "OwnerFormService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    },
+                    {
+                        "name": "ownerService",
+                        "type": "OwnerService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    },
+                    {
+                        "name": "fb",
+                        "type": "FormBuilder",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 17,
+                "jsdoctags": [
+                    {
+                        "name": "modalService",
+                        "type": "ModalService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    },
+                    {
+                        "name": "ownerFormService",
+                        "type": "OwnerFormService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    },
+                    {
+                        "name": "ownerService",
+                        "type": "OwnerService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    },
+                    {
+                        "name": "fb",
+                        "type": "FormBuilder",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "templateData": "<div>\n    <h3 *ngIf=\"!data?.id\">Additional owner</h3>\n    <h3 *ngIf=\"isUpdate && data?.id\">Edit owner</h3>\n    <form [formGroup]=\"form\">\n        <mat-form-field appearance=\"outline\">\n            <input formControlName=\"firstName\" matInput placeholder=\"First name\" required />\n            <mat-error *ngIf=\"form.controls['firstName'].hasError('required')\">\n                First Name is required\n            </mat-error>\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\">\n            <input formControlName=\"lastName\" matInput placeholder=\"Last name\" required />\n            <mat-error *ngIf=\"form.controls['lastName'].hasError('required')\">\n                Last Name is required\n            </mat-error>\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\">\n            <input type=\"email\" formControlName=\"email\" matInput placeholder=\"Email address\" required />\n            <mat-error *ngIf=\"form.controls['email'].hasError('required')\">\n                Email is required\n            </mat-error>\n            <mat-error *ngIf=\"form.controls['email'].hasError('email')\">\n                Email is required\n            </mat-error>\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\">\n            <input formControlName=\"phone\" matInput placeholder=\"Phone number\" required />\n            <mat-error *ngIf=\"form.controls['phone'].hasError('required')\">\n                Phone is required\n            </mat-error>\n        </mat-form-field>\n    </form>\n    <div class=\"button-container\">\n        <app-custom-button \n            (onClick)=\"handleGoBack()\" \n            [label]=\"'Go Back'\" \n            [icon]=\"'arrow_back'\" \n            [disabled]=\"false\"\n            [withStartIcon]=\"true\" \n            [withEndIcon]=\"false\" \n        />\n        <app-custom-button \n            (onClick)=\"handleSave()\" \n            type=\"solid\" \n            [label]=\"'Save'\" \n            [icon]=\"'save'\" \n            [disabled]=\"false\"\n            [withStartIcon]=\"true\" \n            [withEndIcon]=\"false\" \n        />\n    </div>\n</div>"
+        },
+        {
+            "name": "OwnerTableComponent",
+            "id": "component-OwnerTableComponent-35c5fc75d91a3beec769cd29e7df6824dc216820e16d387a58c7581db66852dd4b7ead5b430ef114d2b8e8ed5bc02beec18cf5b6fcb3a6377f2d803281b429f5",
+            "file": "src/app/auth/components/owner-table/owner-table.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-owner-table",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./owner-table.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "isOpenModal",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "boolean",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 12,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "owners",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Owner[]",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 13,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "ownerToEdit",
+                    "defaultValue": "null",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Owner | null",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 14,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "handleDeleteOwner",
+                    "args": [
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 33,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "id",
+                            "type": "string",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "handleOpenModal",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 39,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "handleOpenModalToEdit",
+                    "args": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 44,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "data",
+                            "type": "Owner",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 23,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport { Owner } from '../../interfaces/owner.interfaces';\nimport { ModalService } from '../../../shared/services/modal.service';\nimport { OwnerService } from '../../services/owner.service';\n\n@Component({\n  selector: 'app-owner-table',\n  templateUrl: './owner-table.component.html',\n  styleUrl: './owner-table.component.css',\n})\nexport class OwnerTableComponent {\n  public isOpenModal: boolean = false;\n  public owners: Owner[] = [];\n  public ownerToEdit: Owner | null = null;\n\n  constructor(\n    private modalService: ModalService,\n    private ownerService: OwnerService\n  ) {\n    ownerService.getCurrentData();\n  }\n\n  ngOnInit() {\n    this.modalService.currentIsOpen.subscribe((is) => {\n      this.isOpenModal = is;\n    });\n\n    this.ownerService.currentOwners.subscribe((owners) => {\n      this.owners = owners;\n    });\n  }\n\n  handleDeleteOwner(id: string) {\n    const resp = confirm('Are you sure you want to delete this owner?');\n    if (!resp) return;\n    this.ownerService.deleteOwner(id);\n  }\n\n  handleOpenModal() {\n    this.ownerToEdit = null;\n    this.modalService.changeValue(true);\n  }\n\n  handleOpenModalToEdit(data: Owner) {\n    this.ownerToEdit = data;\n    this.modalService.changeValue(true);\n  }\n}\n",
+            "styleUrl": "./owner-table.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "modalService",
+                        "type": "ModalService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    },
+                    {
+                        "name": "ownerService",
+                        "type": "OwnerService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 14,
+                "jsdoctags": [
+                    {
+                        "name": "modalService",
+                        "type": "ModalService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    },
+                    {
+                        "name": "ownerService",
+                        "type": "OwnerService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "templateData": "<div class=\"table-container\">\n    <app-modal [title]=\"'Add new owner'\" [show]=\"isOpenModal\">\n        <app-owner-form [data]=\"ownerToEdit\" />\n    </app-modal>\n    <div class=\"table-top\">\n        <p>In case this property has more than 1 owner, add here</p>\n        <app-custom-button \n            (onClick)=\"handleOpenModal()\" \n            [color]=\"'info'\" \n            [label]=\"'additional owner'\" \n            [icon]=\"'add'\"\n            [disabled]=\"false\" \n            [withStartIcon]=\"true\" \n            [withEndIcon]=\"false\" \n        />\n    </div>\n    <table>\n        <thead>\n            <tr>\n                <th>First name</th>\n                <th>Last name</th>\n                <th>Email address</th>\n                <th>Phone number</th>\n                <th>Action</th>\n            </tr>\n        </thead>\n        <tbody>\n            @for (item of owners; track $index) {\n            <tr>\n                <td>{{item.firstName}}</td>\n                <td>{{item.lastName}}</td>\n                <td>{{item.email}}</td>\n                <td>{{item.phone}}</td>\n                <td>\n                    <span><mat-icon (click)=\"handleOpenModalToEdit(item)\" class=\"action-btn edit\">edit</mat-icon></span>\n                    <span>\n                        <mat-icon (click)=\"handleDeleteOwner(item.id!)\" class=\"action-btn delete\">delete</mat-icon>\n                    </span>\n                </td>\n            </tr>\n            }\n        </tbody>\n    </table>\n</div>"
+        },
+        {
+            "name": "PageComponent",
+            "id": "component-PageComponent-21dd6eb370b4983b5c21c84d40e6f54d266a9d9af9889e6e76b35c43058bd53b3e451bad089d5adf4bea46647ba10265a2fa8cb15630398e75636307d4817fc6",
+            "file": "src/stories/page.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "storybook-page",
+            "styleUrls": [
+                "./page.css"
+            ],
+            "styles": [],
+            "template": "<article>  <storybook-header\n    [user]=\"user\"\n    (onLogout)=\"doLogout()\"\n    (onLogin)=\"doLogin()\"\n    (onCreateAccount)=\"doCreateAccount()\"\n  ></storybook-header>\n  <section class=\"storybook-page\">\n    <h2>Pages in Storybook</h2>\n    <p>\n      We recommend building UIs with a\n      <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n        <strong>component-driven</strong>\n      </a>\n      process starting with atomic components and ending with pages.\n    </p>\n    <p>\n      Render pages with mock data. This makes it easy to build and review page states without\n      needing to navigate to them in your app. Here are some handy patterns for managing page data\n      in Storybook:\n    </p>\n    <ul>\n      <li>\n        Use a higher-level connected component. Storybook helps you compose such data from the\n        \"args\" of child component stories\n      </li>\n      <li>\n        Assemble data in the page component from your services. You can mock these services out\n        using Storybook.\n      </li>\n    </ul>\n    <p>\n      Get a guided tutorial on component-driven development at\n      <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n        Storybook tutorials\n      </a>\n      . Read more in the\n      <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n      .\n    </p>\n    <div class=\"tip-wrapper\">\n      <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n      <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n            id=\"a\"\n            fill=\"#999\"\n          />\n        </g>\n      </svg>\n      Viewports addon in the toolbar\n    </div>\n  </section>\n</article>",
+            "templateUrl": [],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "user",
+                    "defaultValue": "null",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "User | null",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 69
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "doCreateAccount",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 79,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "doLogin",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 75,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "doLogout",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 71,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                },
+                {
+                    "name": "HeaderComponent",
+                    "type": "component"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\nimport { HeaderComponent } from './header.component';\nimport type { User } from './user';\n\n@Component({\n  selector: 'storybook-page',\n  standalone: true,\n  imports: [CommonModule, HeaderComponent],\n  template: `<article>\n  <storybook-header\n    [user]=\"user\"\n    (onLogout)=\"doLogout()\"\n    (onLogin)=\"doLogin()\"\n    (onCreateAccount)=\"doCreateAccount()\"\n  ></storybook-header>\n  <section class=\"storybook-page\">\n    <h2>Pages in Storybook</h2>\n    <p>\n      We recommend building UIs with a\n      <a href=\"https://componentdriven.org\" target=\"_blank\" rel=\"noopener noreferrer\">\n        <strong>component-driven</strong>\n      </a>\n      process starting with atomic components and ending with pages.\n    </p>\n    <p>\n      Render pages with mock data. This makes it easy to build and review page states without\n      needing to navigate to them in your app. Here are some handy patterns for managing page data\n      in Storybook:\n    </p>\n    <ul>\n      <li>\n        Use a higher-level connected component. Storybook helps you compose such data from the\n        \"args\" of child component stories\n      </li>\n      <li>\n        Assemble data in the page component from your services. You can mock these services out\n        using Storybook.\n      </li>\n    </ul>\n    <p>\n      Get a guided tutorial on component-driven development at\n      <a href=\"https://storybook.js.org/tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">\n        Storybook tutorials\n      </a>\n      . Read more in the\n      <a href=\"https://storybook.js.org/docs\" target=\"_blank\" rel=\"noopener noreferrer\"> docs </a>\n      .\n    </p>\n    <div class=\"tip-wrapper\">\n      <span class=\"tip\">Tip</span> Adjust the width of the canvas with the\n      <svg width=\"10\" height=\"10\" viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g fill=\"none\" fillRule=\"evenodd\">\n          <path\n            d=\"M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z\"\n            id=\"a\"\n            fill=\"#999\"\n          />\n        </g>\n      </svg>\n      Viewports addon in the toolbar\n    </div>\n  </section>\n</article>`,\n  styleUrls: ['./page.css'],\n})\nexport class PageComponent {\n  user: User | null = null;\n\n  doLogout() {\n    this.user = null;\n  }\n\n  doLogin() {\n    this.user = { name: 'Jane Doe' };\n  }\n\n  doCreateAccount() {\n    this.user = { name: 'Jane Doe' };\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".storybook-page {\n  margin: 0 auto;\n  padding: 48px 20px;\n  max-width: 600px;\n  color: #333;\n  font-size: 14px;\n  line-height: 24px;\n  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n}\n\n.storybook-page h2 {\n  display: inline-block;\n  vertical-align: top;\n  margin: 0 0 4px;\n  font-weight: 700;\n  font-size: 32px;\n  line-height: 1;\n}\n\n.storybook-page p {\n  margin: 1em 0;\n}\n\n.storybook-page a {\n  color: #1ea7fd;\n  text-decoration: none;\n}\n\n.storybook-page ul {\n  margin: 1em 0;\n  padding-left: 30px;\n}\n\n.storybook-page li {\n  margin-bottom: 8px;\n}\n\n.storybook-page .tip {\n  display: inline-block;\n  vertical-align: top;\n  margin-right: 10px;\n  border-radius: 1em;\n  background: #e7fdd8;\n  padding: 4px 12px;\n  color: #66bf3c;\n  font-weight: 700;\n  font-size: 11px;\n  line-height: 12px;\n}\n\n.storybook-page .tip-wrapper {\n  margin-top: 40px;\n  margin-bottom: 40px;\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.storybook-page .tip-wrapper svg {\n  display: inline-block;\n  vertical-align: top;\n  margin-top: 3px;\n  margin-right: 4px;\n  width: 12px;\n  height: 12px;\n}\n\n.storybook-page .tip-wrapper svg path {\n  fill: #1ea7fd;\n}\n",
+                    "styleUrl": "./page.css"
+                }
+            ],
+            "stylesData": "",
+            "extends": []
+        },
+        {
+            "name": "RegisterPageComponent",
+            "id": "component-RegisterPageComponent-4b530cbbdb3a9897eadf76b8b616ecbdc3324eb53d00d2201c2f77b2d3287a7cf23cf6f73ba512a988c6683e5a984b57305b7c4c8ce230ad776724ce9d82320e",
+            "file": "src/app/auth/pages/register-page/register-page.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-register-page",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./register-page.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "currentStep",
+                    "defaultValue": "0",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "number",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 11,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "stepperItems",
+                    "defaultValue": "[\n    {\n      index: 0,\n      label: 'Owner',\n      completed: false,\n      current: false,\n    },\n    {\n      index: 1,\n      label: 'Rental Property',\n      completed: false,\n      current: false,\n    },\n    {\n      index: 2,\n      label: 'Rental Property Reporting',\n      completed: false,\n      current: false,\n    },\n    {\n      index: 3,\n      label: 'Rental Property Licenses',\n      completed: false,\n      current: false,\n    },\n    {\n      index: 4,\n      label: 'Agreements',\n      completed: false,\n      current: false,\n    },\n  ]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StepperItem[]",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 12,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "completStep",
+                    "args": [
+                        {
+                            "name": "step",
+                            "type": "number",
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 54,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "step",
+                            "type": "number",
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 47,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport { StepperItem } from '../../../shared/interfaces/custom-stepper/stepper.interfaces';\nimport { StepperService } from '../../../shared/services/stepper.service';\n\n@Component({\n  selector: 'app-register-page',\n  templateUrl: './register-page.component.html',\n  styleUrl: './register-page.component.css',\n})\nexport class RegisterPageComponent {\n  public currentStep: number = 0;\n  public stepperItems: StepperItem[] = [\n    {\n      index: 0,\n      label: 'Owner',\n      completed: false,\n      current: false,\n    },\n    {\n      index: 1,\n      label: 'Rental Property',\n      completed: false,\n      current: false,\n    },\n    {\n      index: 2,\n      label: 'Rental Property Reporting',\n      completed: false,\n      current: false,\n    },\n    {\n      index: 3,\n      label: 'Rental Property Licenses',\n      completed: false,\n      current: false,\n    },\n    {\n      index: 4,\n      label: 'Agreements',\n      completed: false,\n      current: false,\n    },\n  ];\n\n  constructor(private stepperService: StepperService) {}\n\n  ngOnInit() {\n    this.stepperService.currentStep.subscribe((step) => {\n      this.completStep(step);\n      this.currentStep = step;\n    });\n  }\n\n  completStep(step: number) {\n    if(step !== 1) {\n      this.stepperService.changeStatusStep(true);\n    }\n  }\n}\n",
+            "styleUrl": "./register-page.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 43,
+                "jsdoctags": [
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "templateData": "<div class=\"container\">\n    <div class=\"stepper-container\">\n        <div class=\"stepper\">\n            <app-custom-stepper [stepperItems]=\"stepperItems\" />\n        </div>\n    \n        <div class=\"form-container\">\n            @switch (currentStep) {\n            @case (0) {\n            <span>Owner</span>\n            }\n            @case (1) {\n            <app-rental-property-form />\n            }\n            @case (2) {\n            <span>Rental Property Reporting</span>\n            }\n            @case (3) {\n            <span>Rental Property Licenses</span>\n            }\n            @case (4) {\n            <span>Agreements</span>\n            }\n            }\n\n        </div>\n    </div>\n    <div class=\"actions-container\">\n        <app-owner-table />\n    </div>\n</div>\n"
+        },
+        {
+            "name": "RentalPropertyFormComponent",
+            "id": "component-RentalPropertyFormComponent-89f893a6ff4d2112991e693bb21ccd2454ddf5d3e8913798ca8c6bfe51665f41d20e2309eab639c31c118eb13905c93d6399c30e678c6d9788dfd37bebdbebf5",
+            "file": "src/app/auth/components/rental-property-form/rental-property-form.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-rental-property-form",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./rental-property-form.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "dontUsePlatform",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "boolean",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 13,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "form",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "FormGroup",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 12,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "handleIsCompletedForm",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "boolean",
+                    "typeParameters": [],
+                    "line": 54,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 37,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\nimport { FormBuilder, FormGroup, Validators } from '@angular/forms';\nimport { StepperService } from '../../../shared/services/stepper.service';\nimport { FormService } from '../../services/form.service';\n\n@Component({\n  selector: 'app-rental-property-form',\n  templateUrl: './rental-property-form.component.html',\n  styleUrl: './rental-property-form.component.css',\n})\nexport class RentalPropertyFormComponent {\n  public form: FormGroup;\n  public dontUsePlatform: boolean;\n\n  constructor(\n    private fb: FormBuilder,\n    private stepperService: StepperService,\n    private formService: FormService\n  ) {\n    const formData = this.formService.getCurrentData();\n\n    this.dontUsePlatform = formData.dontUsePlatform;\n    this.form = this.fb.group({\n      address: [formData.address, Validators.required],\n      address2: [formData.address2],\n      city: [formData.city, Validators.required],\n      state: [formData.state, Validators.required],\n      zip: [formData.zip, Validators.required],\n      frequency: [formData.frequency, Validators.required],\n      started: [formData.started, Validators.required],\n      dontUsePlatform: [formData.dontUsePlatform],\n      platformLink: [formData.platformLink],\n      businessName: [formData.businessName],\n    });\n  }\n\n  ngOnInit() {\n\n    this.form.statusChanges.subscribe(() => {\n      const isCompleted = this.handleIsCompletedForm();\n      this.stepperService.changeStatusStep(isCompleted);\n      this.formService.changeValue(this.form.value);\n      this.dontUsePlatform = this.form.value.dontUsePlatform;\n    });\n\n    this.stepperService.currentStep.subscribe((step) => {\n      if (step == 1) {\n        const isCompleted = this.handleIsCompletedForm();\n        this.stepperService.changeStatusStep(isCompleted);\n      }\n    })\n  }\n\n  handleIsCompletedForm() {\n    const value = this.form.value;\n    const optionals = ['address2', 'dontUsePlatform', 'businessName'];\n    let isCompleted = true;\n\n    for (let field in value) {\n      if (field == 'platformLink' && value.dontUsePlatform) continue;\n      if (optionals.includes(field)) continue;\n      if (value[field] == '') isCompleted = false;\n    }\n    return isCompleted;\n  }\n\n}\n",
+            "styleUrl": "./rental-property-form.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "fb",
+                        "type": "FormBuilder",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    },
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    },
+                    {
+                        "name": "formService",
+                        "type": "FormService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 13,
+                "jsdoctags": [
+                    {
+                        "name": "fb",
+                        "type": "FormBuilder",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    },
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    },
+                    {
+                        "name": "formService",
+                        "type": "FormService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "templateData": "<div class=\"container\">\n\n    <form [formGroup]=\"form\">\n        <mat-form-field class=\"inputs\" [appearance]=\"'outline'\">\n            <input formControlName=\"address\" matInput placeholder=\"Rental property street address\" required />\n        </mat-form-field>\n        <mat-form-field class=\"inputs\" [appearance]=\"'outline'\">\n            <input matInput formControlName=\"address2\" placeholder=\"Apt/Unit/Suite(optional)\" required />\n        </mat-form-field>\n        <div class=\"column-3\">\n            <mat-form-field [appearance]=\"'outline'\">\n                <input matInput placeholder=\"City\" formControlName=\"city\" required />\n            </mat-form-field>\n            <mat-form-field [appearance]=\"'outline'\">\n                <mat-select formControlName=\"state\" required>\n                    <mat-option value=\"option1\">State 1</mat-option>\n                    <mat-option value=\"option2\">State 2</mat-option>\n                    <mat-option value=\"option3\">State 3</mat-option>\n                    <mat-option value=\"option4\">State 4</mat-option>\n\n                </mat-select>\n                <mat-label>State</mat-label>\n            </mat-form-field>\n            <mat-form-field [appearance]=\"'outline'\">\n                <input matInput placeholder=\"Zip code\" formControlName=\"zip\" required />\n            </mat-form-field>\n        </div>\n        <div class=\"column-2\">\n            <mat-form-field class=\"inputs\" [appearance]=\"'outline'\">\n                <input matInput formControlName=\"started\" [matDatepicker]=\"picker\">\n                <mat-label>Started renting</mat-label>\n\n                <mat-datepicker-toggle matIconSuffix [for]=\"picker\"></mat-datepicker-toggle>\n                <mat-datepicker #picker></mat-datepicker>\n            </mat-form-field>\n            <mat-form-field [appearance]=\"'outline'\">\n                <mat-select formControlName=\"frequency\" required>\n                    <mat-option value=\"option1\">Option 1</mat-option>\n                    <mat-option value=\"option2\">Option 2</mat-option>\n                    <mat-option value=\"option3\">Option 3</mat-option>\n                    <mat-option value=\"option4\">Option 4</mat-option>\n\n                </mat-select>\n                <mat-label> Filing frequency</mat-label>\n            </mat-form-field>\n        </div>\n        <mat-checkbox formControlName=\"dontUsePlatform\">\n            I don’t use any platform to rent out my property\n        </mat-checkbox>\n        <mat-form-field class=\"inputs\" [appearance]=\"'outline'\">\n            <input [readonly]=\"dontUsePlatform\" formControlName=\"platformLink\" matInput\n                placeholder=\"If you use a digital platform, paste link here\" />\n        </mat-form-field>\n        <mat-form-field class=\"inputs\" [appearance]=\"'outline'\">\n            <input formControlName=\"businessName\" matInput placeholder=\"Rental Property Business Name (optional)\"\n                required />\n        </mat-form-field>\n    </form>\n</div>"
+        },
+        {
+            "name": "StepperControlsComponent",
+            "id": "component-StepperControlsComponent-649c0605f3f96c0efb848c492ffdc467f1e86d3f880b5d379a2bca0372b86bd7111867819a5a2e26a557de2652d21ce8c8ff7bde21b993c0198e2bef32107dd2",
+            "file": "src/app/shared/components/stepper-controls/stepper-controls.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-stepper-controls",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./stepper-controls.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "currentStep",
+                    "defaultValue": "0",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "number",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 17,
+                    "modifierKind": [
+                        125
+                    ]
+                },
+                {
+                    "name": "isCompleteStep",
+                    "defaultValue": "true",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "boolean",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 18,
+                    "modifierKind": [
+                        125
+                    ]
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "backStep",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 29,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "nextStep",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 22,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 36,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "resetStep",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 33,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CustomButtonComponent",
+                    "type": "component"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\nimport { StepperService } from '../../services/stepper.service';\n\nimport { CustomButtonComponent } from '../custom-button/custom-button.component';\n\n@Component({\n  standalone: true,\n  selector: 'app-stepper-controls',\n  templateUrl: './stepper-controls.component.html',\n  styleUrl: './stepper-controls.component.css',\n  imports: [\n    CustomButtonComponent,\n  ],\n})\nexport class StepperControlsComponent {\n  public currentStep: number = 0;\n  public isCompleteStep: boolean = true;\n\n  constructor(private stepperService: StepperService) {}\n\n  nextStep() {\n    if (this.isCompleteStep) {\n      this.stepperService.changeStatusStep(false);\n      this.stepperService.changeStep(this.currentStep + 1);\n    } \n  }\n\n  backStep() {\n    this.stepperService.changeStep(this.currentStep - 1);\n  }\n\n  resetStep() {\n    this.stepperService.resetStep();\n  }\n  ngOnInit() {\n    this.stepperService.currentStep.subscribe((step) => {\n      this.currentStep = step;\n    });\n\n    this.stepperService.currentStepCompleted.subscribe((status) => {\n      this.isCompleteStep = status;\n    });\n    \n  }\n  \n}\n",
+            "styleUrl": "./stepper-controls.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 18,
+                "jsdoctags": [
+                    {
+                        "name": "stepperService",
+                        "type": "StepperService",
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "templateData": "<div>\n    <app-custom-button \n        [label]=\"'Cancel'\" \n        [icon]=\"'close'\" \n        [withEndIcon]=\"false\" \n        [withStartIcon]=\"true\"\n        [color]=\"'danger'\" \n        [disabled]=\"false\" \n        (onClick)=\"resetStep()\" \n    />\n    <app-custom-button \n        [label]=\"'Back'\" \n        [icon]=\"'keyboard_backspace'\" \n        [withEndIcon]=\"false\" \n        [withStartIcon]=\"true\"    \n        [color]=\"'info'\" \n        [disabled]=\"currentStep < 1\" \n        (onClick)=\"backStep()\" \n    />\n    \n    <app-custom-button \n        [label]=\"'Next'\" \n        [icon]=\"'arrow_right_alt'\" \n        [withEndIcon]=\"false\" \n        [withStartIcon]=\"true\"\n        [color]=\"'info'\" \n        [disabled]=\"!isCompleteStep\" \n        (onClick)=\"nextStep()\" \n    />\n</div>"
+        },
+        {
+            "name": "StepperItemComponent",
+            "id": "component-StepperItemComponent-b7d26c432b911cf4e139d8f12f81e59bcd4d9eb60bd67acbf8dc72c61c027c699bb6658c311b0189aee7972c9fecea00036173f33d83740d49a82d9ba69c47d1",
+            "file": "src/app/shared/components/stepper-item/stepper-item.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-stepper-item",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./stepper-item.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "data",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 18,
+                    "type": "StepperItem",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "MatIcon"
+                },
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\nimport { StepperItem } from '../../interfaces/custom-stepper/stepper.interfaces';\nimport { MatIcon } from '@angular/material/icon';\nimport { CommonModule } from '@angular/common';\n\n@Component({\n  standalone: true,\n  selector: 'app-stepper-item',\n  templateUrl: './stepper-item.component.html',\n  styleUrl: './stepper-item.component.css',\n  imports: [\n    MatIcon,\n    CommonModule\n  ],\n})\nexport class StepperItemComponent {\n  @Input() data!: StepperItem;\n}\n",
+            "styleUrl": "./stepper-item.component.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<div class=\"container\">\n    <div [ngClass]=\"{'circle': true, 'circle-selected': data.current, 'circle-completed': data.completed}\" >\n        <mat-icon *ngIf=\"data.completed\">check</mat-icon>\n        <span *ngIf=\"!data.completed\">{{data.index + 1}}</span>\n    </div>\n    <span>{{data.label}}</span>\n</div>"
+        }
+    ],
+    "modules": [
+        {
+            "name": "AppModule",
+            "id": "module-AppModule-ba4383acf1d1f6f37af33a8b669d7adb405ed62c27018ef8ba51d65a313e5d3ec1ac692036457aa04a74c07d08ec2da58bd46477762b226db28db9b9b1538eee",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/app.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\n\nimport { AppComponent } from './app.component';\nimport { provideAnimationsAsync } from '@angular/platform-browser/animations/async';\nimport { provideNativeDateAdapter } from '@angular/material/core';\nimport { MobileStepperComponent } from './shared/components/mobile-stepper/mobile-stepper.component';\n\n\n@NgModule({\n  declarations: [\n    AppComponent,\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n  ],\n  providers: [\n    provideNativeDateAdapter(),\n    provideAnimationsAsync()\n  ],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "AppRoutingModule"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "AppRoutingModule",
+            "id": "module-AppRoutingModule-3ba73868f507a93719397c61bc37324680703c2196177cd4305ee2c469fe9fff93c60f3479e3611f5d3d087d2cbbab80e1ae67091810e9affec2cdbf79de2015",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/app-routing.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nimport { Error404Component } from './shared/pages/error404/error404.component';\n\nconst routes: Routes = [\n  {\n    path: 'auth',\n    loadChildren: () => \"import('./auth/auth.module').then(m => m.AuthModule)\"\n  },\n  {\n    path: '',\n    redirectTo: 'auth/new-account',\n    pathMatch: 'full'\n  },\n  {\n    path: '404',\n    component: Error404Component\n  },\n  {\n    path: '**',\n    redirectTo: '404'\n  }\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "AuthModule",
+            "id": "module-AuthModule-8f788d9b067be4a6ae36b7cf58e3148ef8b1817234efbf1a4547db542397c9de58e7fb83122b8b7208ea6ca41770d2db33da61e5d7cb4a02f6c0d99636c8cd08",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/auth/auth.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\n\nimport { AuthRoutingModule } from './auth-routing.module';\n\nimport { LayoutPageComponent } from './pages/layout-page/layout-page.component';\nimport { LoginPageComponent } from './pages/login-page/login-page.component';\nimport { RegisterPageComponent } from './pages/register-page/register-page.component';\nimport { NavbarComponent } from '../shared/components/navbar/navbar.component';\nimport { RentalPropertyFormComponent } from './components/rental-property-form/rental-property-form.component';\nimport { CustomButtonComponent } from '../shared/components/custom-button/custom-button.component';\nimport { StepperControlsComponent } from '../shared/components/stepper-controls/stepper-controls.component';\nimport { CustomStepperComponent } from '../shared/components/custom-stepper/custom-stepper.component';\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\nimport { MatCheckboxModule } from '@angular/material/checkbox';\nimport { MatRadioModule } from '@angular/material/radio';\nimport { MatFormFieldModule } from '@angular/material/form-field';\nimport { MatInputModule } from '@angular/material/input';\nimport { MatSelectModule } from '@angular/material/select';\nimport { MatIconModule } from '@angular/material/icon';\nimport { MatDatepickerModule } from '@angular/material/datepicker';\nimport { OwnerTableComponent } from './components/owner-table/owner-table.component';\nimport { MobileStepperComponent } from '../shared/components/mobile-stepper/mobile-stepper.component';\nimport { ModalComponent } from '../shared/components/modal/modal.component';\nimport { OwnerFormComponent } from './components/owner-form/owner-form.component';\nimport { CommonModule } from '@angular/common';\n\n\n\n@NgModule({\n  declarations: [\n    LayoutPageComponent,\n    LoginPageComponent,\n    RegisterPageComponent,\n    RentalPropertyFormComponent,\n    OwnerTableComponent,\n    OwnerFormComponent,\n  ],\n  imports: [\n    NavbarComponent,\n    CustomButtonComponent,\n    StepperControlsComponent,\n    CustomStepperComponent,\n    MobileStepperComponent,\n    ModalComponent,\n\n    AuthRoutingModule,\n    CommonModule,\n    FormsModule,\n    ReactiveFormsModule,\n    MatCheckboxModule,\n    MatRadioModule,\n    MatFormFieldModule,\n    MatInputModule,\n    MatSelectModule,\n    MatIconModule,\n    MatDatepickerModule,\n  ],\n  providers:[\n \n  ]\n})\nexport class AuthModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "LayoutPageComponent"
+                        },
+                        {
+                            "name": "LoginPageComponent"
+                        },
+                        {
+                            "name": "OwnerFormComponent"
+                        },
+                        {
+                            "name": "OwnerTableComponent"
+                        },
+                        {
+                            "name": "RegisterPageComponent"
+                        },
+                        {
+                            "name": "RentalPropertyFormComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "AuthRoutingModule"
+                        },
+                        {
+                            "name": "CustomButtonComponent"
+                        },
+                        {
+                            "name": "CustomStepperComponent"
+                        },
+                        {
+                            "name": "MobileStepperComponent"
+                        },
+                        {
+                            "name": "ModalComponent"
+                        },
+                        {
+                            "name": "NavbarComponent"
+                        },
+                        {
+                            "name": "StepperControlsComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "AuthRoutingModule",
+            "id": "module-AuthRoutingModule-b4ddc16fdae2c23aed6cf036fe3913c0babb4ed9b04369875dfa64d56bf0b8d87a80855a8bd1b491af294b4e16c27ecb6c996709b06f7678c969c658bf41939c",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/auth/auth-routing.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nimport { LayoutPageComponent } from './pages/layout-page/layout-page.component';\nimport { LoginPageComponent } from './pages/login-page/login-page.component';\nimport { RegisterPageComponent } from './pages/register-page/register-page.component';\n\n\nconst routes: Routes = [\n  {\n    path: '',\n    component: LayoutPageComponent,\n    children: [\n      {\n        path: 'login',\n        component: LoginPageComponent\n      },\n      {\n        path: 'new-account',\n        component: RegisterPageComponent\n      },\n      {\n        path: '**',\n        redirectTo: 'new-account'\n      }\n    ]\n  }\n]\n\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class AuthRoutingModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        }
+    ],
+    "miscellaneous": [],
+    "routes": {
+        "name": "<root>",
+        "kind": "module",
+        "className": "AppModule",
+        "children": [
+            {
+                "name": "routes",
+                "filename": "src/app/app-routing.module.ts",
+                "module": "AppRoutingModule",
+                "children": [
+                    {
+                        "path": "auth",
+                        "loadChildren": "./auth/auth.module#AuthModule",
+                        "children": [
+                            {
+                                "kind": "module",
+                                "children": [
+                                    {
+                                        "name": "routes",
+                                        "filename": "src/app/auth/auth-routing.module.ts",
+                                        "module": "AuthRoutingModule",
+                                        "children": [
+                                            {
+                                                "path": "",
+                                                "component": "LayoutPageComponent",
+                                                "children": [
+                                                    {
+                                                        "path": "login",
+                                                        "component": "LoginPageComponent"
+                                                    },
+                                                    {
+                                                        "path": "new-account",
+                                                        "component": "RegisterPageComponent"
+                                                    },
+                                                    {
+                                                        "path": "**",
+                                                        "redirectTo": "new-account"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "kind": "module"
+                                    }
+                                ],
+                                "module": "AuthModule"
+                            }
+                        ]
+                    },
+                    {
+                        "path": "",
+                        "redirectTo": "auth/new-account",
+                        "pathMatch": "full"
+                    },
+                    {
+                        "path": "404",
+                        "component": "Error404Component"
+                    },
+                    {
+                        "path": "**",
+                        "redirectTo": "404"
+                    }
+                ],
+                "kind": "module"
+            }
+        ]
+    },
+    "coverage": {
+        "count": 3,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "src/app/app.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "AppComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/components/owner-form/owner-form.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "OwnerFormComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/10",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/components/owner-table/owner-table.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "OwnerTableComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/9",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/components/rental-property-form/rental-property-form.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "RentalPropertyFormComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/6",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/interfaces/owner.interfaces.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "Owner",
+                "coveragePercent": 0,
+                "coverageCount": "0/6",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/interfaces/rentalProperty.interfaces.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "RentalProperty",
+                "coveragePercent": 0,
+                "coverageCount": "0/11",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/pages/layout-page/layout-page.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "LayoutPageComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/pages/login-page/login-page.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "LoginPageComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/pages/register-page/register-page.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "RegisterPageComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/6",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/services/form.service.ts",
+                "type": "injectable",
+                "linktype": "injectable",
+                "name": "FormService",
+                "coveragePercent": 0,
+                "coverageCount": "0/8",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/services/owner-form.service.ts",
+                "type": "injectable",
+                "linktype": "injectable",
+                "name": "OwnerFormService",
+                "coveragePercent": 0,
+                "coverageCount": "0/7",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/auth/services/owner.service.ts",
+                "type": "injectable",
+                "linktype": "injectable",
+                "name": "OwnerService",
+                "coveragePercent": 0,
+                "coverageCount": "0/9",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/custom-button/custom-button.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomButtonComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/11",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/custom-stepper/custom-stepper.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomStepperComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/6",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/mobile-stepper/mobile-stepper.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "MobileStepperComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/modal/modal.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "ModalComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/navbar/navbar.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "NavbarComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/stepper-controls/stepper-controls.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "StepperControlsComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/8",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/components/stepper-item/stepper-item.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "StepperItemComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/interfaces/custom-stepper/stepper.interfaces.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "StepperItem",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/pages/error404/error404.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "Error404Component",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/services/modal.service.ts",
+                "type": "injectable",
+                "linktype": "injectable",
+                "name": "ModalService",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/shared/services/stepper.service.ts",
+                "type": "injectable",
+                "linktype": "injectable",
+                "name": "StepperService",
+                "coveragePercent": 0,
+                "coverageCount": "0/11",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/button.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "ButtonComponent",
+                "coveragePercent": 83,
+                "coverageCount": "5/6",
+                "status": "very-good"
+            },
+            {
+                "filePath": "src/stories/header.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "HeaderComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/page.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PageComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/user.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "User",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            }
+        ]
+    }
+}
