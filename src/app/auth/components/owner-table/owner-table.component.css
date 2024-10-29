@@ -52,15 +52,25 @@ th {
   color: #f44336;
 }
 
+@media only screen and (max-width: 1460px) {
+  .table-top {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70px;
+    min-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1185px) { 
+  .table-top {
+    height: 90px
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .table-container {
     min-height: 400px;
     max-height: 450px;
     overflow: auto;
-  }
-  .table-top {
-    flex-direction: column;
-    align-items: flex-start;
-    height: 70px
   }
 }

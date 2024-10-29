@@ -1,5 +1,5 @@
 .container {
-    min-height: calc(75dvh - 80px);
+    min-height: calc(70dvh - 80px);
     display: flex;
     width: 220px;
     flex-direction: column;
@@ -20,4 +20,10 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+@media only screen and (max-width: 1024px) { 
+    .container {
+        min-height: calc(60dvh - 80px);
+    }
 }
